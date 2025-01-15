@@ -1,0 +1,72 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para la barra superior */
+.banner-principal {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+/* Estilo del menú principal */
+.nav-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Menú de la izquierda */
+.menu-izquierda a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Logo */
+.logo img {
+    display: block;
+}
+
+/* Menú de la derecha */
+.menu-derecha {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu-derecha a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* Iconos en el menú derecho */
+.menu-derecha img {
+    height: 20px;
+    width: 20px;
+}
+
+/* Botón de cita */
+.boton-cita {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.boton-cita:hover {
+    background-color: #444;
+}
