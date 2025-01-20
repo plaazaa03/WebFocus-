@@ -118,7 +118,7 @@ main {
 /*Top Ventas*/
 
 .top-ventas {
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .top-ventas h2 {
@@ -151,6 +151,7 @@ footer {
     color: #f3f3f3;
     padding: 20px 0;
     position: relative;
+    bottom: 0;
     width: 100%;
 }
 
