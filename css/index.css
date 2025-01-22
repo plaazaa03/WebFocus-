@@ -13,7 +13,6 @@
     padding: 10px 0;
 }
 
-
 .nav-principal {
     display: flex;
     justify-content: space-between;
@@ -43,7 +42,7 @@
 }
 
 main {
-    padding: 0px;   
+    padding: 0px;
 }
 
 .imagen-principal {
@@ -66,7 +65,7 @@ main {
     text-align: center;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    font-family: 'Arial', sans-serif;
+    font-family: "Arial", sans-serif;
 }
 
 .imagen-principal-texto h1 {
@@ -77,8 +76,6 @@ main {
 .imagen-principal-texto p {
     font-size: 18px;
 }
-
-
 
 /* Estilo para la sección de ofertas */
 
@@ -91,8 +88,8 @@ main {
     margin-bottom: 10px;
     margin-left: 9px;
     font-weight: 800;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
 }
 
 .ofertas-container {
@@ -121,151 +118,170 @@ main {
     text-decoration: underline;
 }
 
-/*Top Ventas*/
+@media (max-width: 768px) {
+    .ofertas-container {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
 
-.top-ventas {
-    margin-bottom: 100px;
-}
+    .ofertas-container div {
+        width: 45%;
+    }
+        .ofertas h2 {
+            font-size: 20px;
+            margin-left: 0;
+            text-align: center;
+        }
 
-.top-ventas h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    margin-left: 9px;
-    font-weight: 800;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-}
+        .ofertas-container div a {
+            font-size: 12px;
+        }
+    }
 
-.ventas-container {
+    /*Top Ventas*/
+
+    .top-ventas {
+        margin-bottom: 100px;
+    }
+
+    .top-ventas h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-left: 9px;
+        font-weight: 800;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
+    }
+
+    .ventas-container {
     display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.ventas-container div {
-    padding: 10px;
-    text-align: center;
-}
-
-.ventas-container img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* General styles */
-footer {
-    background-color: #0d0d0d;
-    color: #f3f3f3;
-    padding: 20px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-.footer-content {
-    display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
     gap: 20px;
-}
+    }
 
-/* Estilo para el primer bloque (izquierda) */
-.footer-left {
-    margin-left: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.footer-logo img {
-    margin-bottom: 10px;
-}
-
-.footer-logo p {
-    font-size: 14px;
-    color: #bfbfbf;
-}
-
-/* Estilo para el segundo bloque (derecha) */
-.footer-right {
-    margin-right: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-/* Redes sociales */
-.footer-socials {
-    display: flex;
-    gap: 15px;
-    list-style: none;
-    justify-content: end;
-}
-
-.footer-socials li a img {
-    cursor: pointer;
-    transition: transform 0.2s ease-in-out;
-}
-
-.footer-socials li a img:hover {
-    transform: scale(1.1);
-}
-
-/* Menú de navegación */
-.footer-nav {
-    display: flex;
-    gap: 15px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-nav li a {
-    color: #f3f3f3;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.footer-nav li a:hover {
-    text-decoration: underline;
-}
-
-/* Media Queries */
-@media (min-width: 577px) and (max-width: 768px) { /* SM */
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
+    .ventas-container div {
+        padding: 10px;
         text-align: center;
     }
-    .footer-right {
-        align-items: center;
-    }
-    .footer-nav,
-    .footer-socials {
-        justify-content: center;
-    }
-}
 
-@media (min-width: 769px) and (max-width: 992px) { /* MD */
+    .ventas-container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    @media (max-width: 768px) {
+        .ventas-container {
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .ventas-container div {
+            width: 45%;
+        }
+
+        .top-ventas h2 {
+            font-size: 20px;
+            margin-left: 0;
+            text-align: center;
+        }
+    }
+
+    /*EStilos para el footer*/
+    footer {
+        background-color: #0d0d0d;
+        color: #f3f3f3;
+        padding: 20px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+
     .footer-content {
-        flex-direction: row;
+        display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 20px;
     }
-    .footer-left,
-    .footer-right {
-        width: 48%;
-    }
-}
 
-@media (min-width: 993px) and (max-width: 1200px) { /* LG */
-    .footer-content {
-        max-width: 1100px;
-        margin: 0 auto;
+    /* Estilo para el primer bloque (izquierda) */
+    .footer-left {
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
-    .footer-left,
-    .footer-right {
-        width: auto;
-    }
-}
 
+    .footer-logo img {
+        margin-bottom: 10px;
+    }
+
+    .footer-logo p {
+        font-size: 14px;
+        color: #bfbfbf;
+    }
+
+    /* Estilo para el segundo bloque (derecha) */
+    .footer-right {
+        margin-right: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Redes sociales */
+    .footer-socials {
+        display: flex;
+        gap: 15px;
+        list-style: none;
+        justify-content: end;
+    }
+
+    .footer-socials li a img {
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .footer-socials li a img:hover {
+        transform: scale(1.1);
+    }
+
+    /* Menú de navegación */
+    .footer-nav {
+        display: flex;
+        gap: 15px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-nav li a {
+        color: #f3f3f3;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .footer-nav li a:hover {
+        text-decoration: underline;
+    }
+
+    /* Media Queries */
+    @media (max-width: 820px) {
+
+        /* SM */
+        .footer-content {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .footer-right {
+            align-items: center;
+        }
+
+        .footer-nav,
+        .footer-socials {
+            justify-content: center;
+        }
+    }

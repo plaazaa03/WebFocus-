@@ -69,6 +69,7 @@ main {
     border-radius: 5px;
 }
 
+
 /* Contenido de los artículos */
 .entrada h2 {
     font-size: 18px;
@@ -90,7 +91,7 @@ main {
 .entrada p {
     font-size: 14px;
     color: #333;
-    margin: 0 15px 15px;
+    margin: 15px 15px 15px;
 }
 
 .leer-mas {
@@ -137,7 +138,6 @@ main {
     color: white;
 }
 
-/* Responsividad */
 @media (max-width: 768px) {
     .entrada.grande {
         grid-column: span 1;
@@ -173,43 +173,16 @@ main {
     font-weight: bold;
 }
 
+.menu-izquierda a:hover {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 /* Logo */
 .logo img {
     display: block;
-}
-
-/* Menú de la derecha */
-.menu-derecha {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.menu-derecha a {
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
-}
-
-/* Iconos en el menú derecho */
-.menu-derecha img {
-    height: 20px;
-    width: 20px;
-}
-
-/* Botón de cita */
-.boton-cita {
-    background-color: black;
-    color: white;
-    font-size: 14px;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.boton-cita:hover {
-    background-color: #444;
 }
 
 /* Estilo para el pie de página */
@@ -230,7 +203,6 @@ footer {
     gap: 20px;
 }
 
-/* Primer bloque: Logotipo y nombre */
 .footer-left {
     margin-left: 15px;
     display: flex;
@@ -247,7 +219,6 @@ footer {
     color: #bfbfbf;
 }
 
-/* Segundo bloque: Redes sociales y menú */
 .footer-right {
     margin-right: 15px;
     display: flex;
@@ -255,7 +226,6 @@ footer {
     gap: 15px;
 }
 
-/* Redes sociales */
 .footer-socials {
     display: flex;
     gap: 15px;
@@ -272,7 +242,6 @@ footer {
     transform: scale(1.1);
 }
 
-/* Menú de navegación */
 .footer-nav {
     display: flex;
     gap: 15px;
@@ -291,8 +260,7 @@ footer {
     text-decoration: underline;
 }
 
-/* Media Queries */
-@media (min-width: 577px) and (max-width: 768px) {
+@media (max-width: 820px) {
     .footer-content {
         flex-direction: column;
         align-items: center;
@@ -304,28 +272,5 @@ footer {
     .footer-nav,
     .footer-socials {
         justify-content: center;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 992px) {
-    .footer-content {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    .footer-left,
-    .footer-right {
-        width: 48%;
-    }
-}
-
-@media (min-width: 993px) and (max-width: 1200px) {
-    .footer-content {
-        max-width: 1100px;
-        margin: 0 auto;
-    }
-    .footer-left,
-    .footer-right {
-        width: auto;
     }
 }
