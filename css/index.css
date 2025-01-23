@@ -271,10 +271,6 @@ main {
         font-size: 14px;
     }
 
-    .footer-nav li a:hover {
-        text-decoration: underline;
-    }
-
     @media (max-width: 820px) {
         .footer-content {
             flex-direction: column;
