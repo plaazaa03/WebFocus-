@@ -180,9 +180,12 @@ main {
     border-radius: 5px;
 }
 
-/* Logo */
 .logo img {
     display: block;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
 }
 
 /* Estilo para el pie de página */
@@ -269,8 +272,8 @@ footer {
     .footer-right {
         align-items: center;
     }
-    .footer-nav,
-    .footer-socials {
+    .footer-nav {
         justify-content: center;
+        display: block;
     }
 }

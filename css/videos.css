@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+main {
+    background-color: #f9f9f9;
+}
+
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(45deg, #000000, #ffffff, #b2e1f3, #000000);
@@ -47,6 +51,10 @@ body {
 
 .logo img {
     display: block;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
 }
 
 .videos {
@@ -180,8 +188,8 @@ footer {
     .footer-right {
         align-items: center;
     }
-    .footer-nav,
-    .footer-socials {
+    .footer-nav {
         justify-content: center;
+        display: block;
     }
 }
