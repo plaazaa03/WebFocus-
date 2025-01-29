@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+main {
+    padding: 20px;
+    background-image: url('/img/fondoAzul.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .banner-principal {
     background-color: black;
     color: white;

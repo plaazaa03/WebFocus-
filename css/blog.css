@@ -8,7 +8,11 @@
 /* Estilo para la página del blog */
 main {
     padding: 20px;
-    background-color: #f9f9f9;
+    background-image: url('/img/fondoAzul.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Contenedor del blog */

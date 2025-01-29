@@ -7,8 +7,37 @@
     <title>Videos Focus+</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="custom.css" />
     <link rel="icon" type="image/x-icon" href="/img/icono.png" />
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main-bg {
+            background-image: url('/img/fondoAzul.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .menu-izquierda a:hover {
+            background-color: rgb(71, 178, 210);
+            color: white;
+            padding: 2px;
+            border-radius: 5px;
+        }
+
+        .logo img:hover {
+            transform: scale(1.1);
+        }
+
+    </style>
 </head>
 
 <body>
@@ -17,10 +46,10 @@
             REBAJAS -30% ya disponibles en tus tiendas Focus+ más cercanas
         </div>
         <nav class="nav-principal navbar navbar-expand-lg navbar-light bg-white border-bottom py-3">
-            <div class="container">
+            <div class="container-fluid px-4">
                 <div class="menu-izquierda d-flex ms-0">
                     <a href="index.html" class="nav-link fw-bold me-3">Inicio</a>
-                    <a href="Blog.html" class="nav-link fw-bold">Blog</a>
+                    <a href="Blog.html" class="nav-link fw-bold fs-6">Blog</a>
                 </div>
                 <div class="logo ms-auto me-0">
                     <a href="index.html">
@@ -31,8 +60,8 @@
         </nav>
     </header>
 
-    <main class="container py-4">
-        <div class="videos">
+    <main class="container-fluid py-4 main-bg">
+        <div class="videos container">
             <h1 class="text-center mb-4">Videos Focus+</h1>
             <div class="videos-container row g-4">
                 <div class="col-md-4">
@@ -110,7 +139,7 @@
     </main>
 
     <footer class="bg-black text-white py-4">
-        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="container-fluid d-flex flex-column flex-md-row justify-content-between align-items-center">
             <div class="footer-left d-flex flex-column align-items-center mb-3 mb-md-0">
                 <img height="40px" src="/img/focus-negro.png" alt="logo" />
                 <p class="text-secondary">2024-2025 | Raúl Plaza Gálvez</p>
