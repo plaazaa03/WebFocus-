@@ -39,8 +39,8 @@ main {
 }
 
 .menu-izquierda a:hover {
-    background-color: black;
-    color: white;
+    background-color: rgb(71, 178, 210);
+    color: rgb(0, 0, 0);
     padding: 10px;
     border-radius: 5px;
 }
