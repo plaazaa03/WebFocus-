@@ -19,6 +19,7 @@ main {
     text-align: center;
     font-size: 14px;
     padding: 10px 0;
+    font-weight: bold;
 }
 
 .nav-principal {
@@ -53,7 +54,6 @@ main {
     transform: scale(1.1);
 }
 
-/* Contenedor principal */
 .container {
     display: flex;
     justify-content: space-between;
@@ -63,7 +63,6 @@ main {
     padding: 0 15px;
 }
 
-/* Estilo para el contenido principal */
 .main-content {
     flex: 3; 
     padding: 20px;
@@ -176,8 +175,6 @@ blockquote {
     }
 }
 
-
-/* Estilo para el pie de página */
 footer {
     background-color: #0d0d0d;
     color: #f3f3f3;

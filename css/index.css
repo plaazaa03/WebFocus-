@@ -12,6 +12,7 @@
     text-align: center;
     font-size: 14px;
     padding: 10px 0;
+    font-weight: bold;
 }
 
 .nav-principal {
@@ -231,7 +232,7 @@ main {
 
     .footer-logo p {
         font-size: 14px;
-        color: #bfbfbf;
+        color: #ffffff;
     }
 
     .footer-right {
@@ -266,7 +267,7 @@ main {
     }
 
     .footer-nav li a {
-        color: #f3f3f3;
+        color: #ffffff;
         text-decoration: none;
         font-size: 14px;
     }
