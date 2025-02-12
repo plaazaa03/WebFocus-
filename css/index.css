@@ -201,6 +201,16 @@ main {
         }
     }
 
+    /*Gafas de la tienda*/
+    .gafas-almacenadas h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-left: 9px;
+        font-weight: 800;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
+    }
+
     /*EStilos para el footer*/
     footer {
         background-color: #0d0d0d;
