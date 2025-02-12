@@ -211,6 +211,23 @@ main {
             "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
     }
 
+    /* @media (max-width: 768px) {
+        .ventas-container {
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .ventas-container div {
+            width: 45%;
+        }
+
+        .top-ventas h2 {
+            font-size: 20px;
+            margin-left: 0;
+            text-align: center;
+        }
+    } */
+
 
     /*EStilos para el footer*/
     footer {
