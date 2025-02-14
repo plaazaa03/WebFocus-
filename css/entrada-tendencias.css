@@ -20,9 +20,18 @@ main {
     font-size: 14px;
     padding: 10px 0;
     font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .nav-principal {
+    position: fixed;
+    left: 0;
+    top: 35px; 
+    width: 100%;
+    z-index: 1000;  
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +39,6 @@ main {
     padding: 10px 20px;
     border-bottom: 1px solid #ddd;
 }
-
 .menu-izquierda a {
     text-decoration: none;
     color: black;
@@ -111,6 +119,9 @@ main {
     margin-bottom: 10px;
     list-style-type: disc;
     color: #555555;
+}
+main {
+    margin-top: 90px;
 }
 
 blockquote {

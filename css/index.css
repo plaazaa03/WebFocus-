@@ -13,9 +13,18 @@
     font-size: 14px;
     padding: 10px 0;
     font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .nav-principal {
+    position: fixed;
+    left: 0;
+    top: 35px; 
+    width: 100%;
+    z-index: 1000;  
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +57,7 @@
 }
 
 main {
-    padding: 0px;
+    margin-top: 90px;
 }
 
 .imagen-principal {

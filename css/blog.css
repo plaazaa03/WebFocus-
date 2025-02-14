@@ -5,6 +5,7 @@
 }
 
 main {
+    margin-top: 90px;
     padding: 20px;
     background-image: url('/img/fondoAzul.png');
     background-size: cover;
@@ -146,9 +147,18 @@ main {
     font-size: 14px;
     padding: 10px 0;
     font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .nav-principal {
+    position: fixed;
+    left: 0;
+    top: 35px; 
+    width: 100%;
+    z-index: 1000;  
     display: flex;
     justify-content: space-between;
     align-items: center;
