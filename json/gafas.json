@@ -1,0 +1,22 @@
+[
+    { "id": 1, "nombre": "ASTOLA", "precio": 79.00, "imagen": "/img/gafas1.jpg", "imagenHover": "/img/gafas1_1.jpg" },
+    { "id": 2, "nombre": "ROGERS SUN", "precio": 49.00, "imagen": "/img/gafas2.jpg", "imagenHover": "/img/gafas2_1.jpg" },
+    { "id": 3, "nombre": "MAUBEC", "precio": 79.00, "imagen": "/img/gafas3.jpg", "imagenHover": "/img/gafas3_1.jpg" },
+    { "id": 4, "nombre": "BACALL SUN", "precio": 49.00, "imagen": "/img/gafas4.jpg", "imagenHover": "/img/gafas4_1.jpg" },
+    { "id": 5, "nombre": "LUXOR CLASSIC", "precio": 89.00, "imagen": "/img/gafas5.jpg", "imagenHover": "/img/gafas5_1.jpg" },
+    { "id": 6, "nombre": "ECLIPSE VISION", "precio": 69.00, "imagen": "/img/gafas6.jpg", "imagenHover": "/img/gafas6_1.jpg" },
+    { "id": 7, "nombre": "ZENITH PRO", "precio": 99.00, "imagen": "/img/gafas7.jpg", "imagenHover": "/img/gafas7_1.jpg" },
+    { "id": 8, "nombre": "VINTAGE STYLE", "precio": 59.00, "imagen": "/img/gafas8.jpg", "imagenHover": "/img/gafas8_1.jpg" },
+    { "id": 9, "nombre": "RETRO GLAM", "precio": 89.00, "imagen": "/img/gafas9.jpg", "imagenHover": "/img/gafas9_1.jpg" },
+    { "id": 10, "nombre": "SOLAR WAVE", "precio": 75.00, "imagen": "/img/gafas10.jpg", "imagenHover": "/img/gafas10_1.jpg" },
+    { "id": 11, "nombre": "ULTRA CLEAR", "precio": 110.00, "imagen": "/img/gafas11.jpg", "imagenHover": "/img/gafas11_1.jpg" },
+    { "id": 12, "nombre": "STREET SMART", "precio": 45.00, "imagen": "/img/gafas12.jpg", "imagenHover": "/img/gafas12_1.jpg" },
+    { "id": 13, "nombre": "NOVA BLUE", "precio": 85.00, "imagen": "/img/gafas13.jpg", "imagenHover": "/img/gafas13_1.jpg" },
+    { "id": 14, "nombre": "GALAXY VIEW", "precio": 120.00, "imagen": "/img/gafas14.jpg", "imagenHover": "/img/gafas14_1.jpg" },
+    { "id": 15, "nombre": "SUNBURST", "precio": 95.00, "imagen": "/img/gafas15.jpg", "imagenHover": "/img/gafas15_1.jpg" },
+    { "id": 16, "nombre": "AERO LIGHT", "precio": 55.00, "imagen": "/img/gafas16.jpg", "imagenHover": "/img/gafas16_1.jpg" },
+    { "id": 17, "nombre": "URBAN CHIC", "precio": 67.00, "imagen": "/img/gafas17.jpg", "imagenHover": "/img/gafas17_1.jpg" },
+    { "id": 18, "nombre": "ELITE EDGE", "precio": 130.00, "imagen": "/img/gafas18.jpg", "imagenHover": "/img/gafas18_1.jpg" },
+    { "id": 19, "nombre": "TITANIUM FLEX", "precio": 150.00, "imagen": "/img/gafas19.jpg", "imagenHover": "/img/gafas19_1.jpg" },
+    { "id": 20, "nombre": "SPORT VISION", "precio": 79.00, "imagen": "/img/gafas20.jpg", "imagenHover": "/img/gafas20_1.jpg" }
+]
